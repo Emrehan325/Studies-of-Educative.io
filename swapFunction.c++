@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 void swap(vector<int>& arr, int firstIndex, int secondIndex) {
     int len = arr.size ();
     if (firstIndex < len && secondIndex < len)
